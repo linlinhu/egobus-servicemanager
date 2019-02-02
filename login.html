@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>登录</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<link rel='icon' href='static/favicon.ico' type='image/x-ico'/>
+		<link rel="stylesheet" type="text/css" href="ext-3.0.3/resources/login/css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="resource/msgbox/msgbox.min.css"/>
+		<script type="text/javascript" src="js/basePath.js"></script>
+		<!--[if lte IE 8]>
+			<script type="text/javascript">
+				window.alert('请使用IE8以上的版本或者firefox(火狐),360(极速模式),chrome(谷歌)');
+				window.close();
+			</script>
+		<![endif]-->
+		<style type="text/css">
+		 .error{color:#d41111;font-size:12px;}
+		</style>
+	</head>
+	<body>
+		<div class="Sign_in">
+		    <form id="j_from">
+				<div class="jian_kehuduan">
+					<span>一起行后台管理平台</span>
+				</div>
+				<div class="Sign_search">
+				      <ul>
+							<li>
+								<div class="Account_number un">
+									<div class="perpson_logo"><img src="ext-3.0.3/resources/login/img/un.png"></div>
+									<div class="perpson_search">
+										<input name="username" id="j_username" class="text_one" type="text"/>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="Account_number Password">
+									<div class="Password_Logo"><img src="ext-3.0.3/resources/login/img/pwd.png"></div>
+									<div class="Password_Text">
+										<input name="password" id="j_pwd" class="text_one" type="password"/>
+									</div>
+								</div>
+							</li>
+						</ul>
+				</div>
+				<div class="Sign_btn">
+					<button type="submit">登录</button>
+				</div>
+			</form>
+		</div>
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript"	src="js/crypto-sha1.js" charset="utf-8"></script>
+		<script type="text/javascript"	src="js/base64.js" charset="utf-8"></script>
+		<script type="text/javascript"	src="resource/msgbox/msgbox.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="ext-3.0.3/resources/login/jquery.validate.min.js"></script>
+		
+		<script type="text/javascript" src="js/login.js"></script>
+	</body>
+</html>

@@ -1,0 +1,150 @@
+@CHARSET "UTF-8";
+html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	} 
+ul li{
+	padding: 0;
+	margin: 0;
+}
+input,button{outline:none;}
+button{cursor:pointer;}
+input{line-height:24px;color:#FFF;font-size:24px;}
+body{
+font-size: 16px;
+font-family: "微软雅黑";
+padding: 0;
+margin: 0;
+   background: url(../img/bg.png) no-repeat left top;
+   background-size:100%;
+   z-index: 9;
+   max-width: 1340px;
+   min-width: 775px;
+}
+.Sign_in{
+	width:400px;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	left:50%;
+	margin-left:-200px;
+	top:0;
+	bottom:0;
+	z-index:10;
+}
+.jian_kehuduan{
+	height: 45px;
+	text-align:center;
+}
+.jian_kehuduan span{
+	line-height:45px;
+	font-size: 28px;
+	color: #fff;
+}
+.Sign_search{
+	padding-left: 18px;
+	padding-right:18px;
+}
+.Account_number{
+	width: 100%;
+	height:50px;
+}
+.Sign_btn{
+	width:200px;
+	height:60px;
+	margin:40px auto 0;
+	background-color:#fff;
+	border-radius:66px;
+	opacity: 1.0;
+	
+}
+.Sign_btn button{
+	width: 100%;
+	height: 100%;
+	border: none;
+	background: #585eaa;
+	border-radius: 66px;
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 10px;
+	text-align: center;
+	opacity: 1.0;
+}
+.perpson_logo{
+	width: 20%;
+	height: 100%;
+	border: none;
+	border-bottom-left-radius: 66px;
+	border-top-left-radius: 66px;
+	float: left;
+	background:#939393;
+	text-align: center;
+	vertical-align: middle;
+}
+.perpson_search{
+	width: 79%;
+	height: 100%;
+	float: left;
+	border-top-right-radius: 66px;
+	border-bottom-right-radius: 66px;
+	background: #939393;
+}
+.perpson_search input{
+	width: 100%;
+	height: 95%;
+	border: none;
+	background:#939393;
+	border-top-right-radius: 66px;
+	border-bottom-right-radius: 66px;
+	}
+	
+.Password_Logo{
+width: 20%;
+height: 100%;
+border: none;
+border-bottom-left-radius: 66px;
+border-top-left-radius: 66px;
+float: left;
+background:#939393;
+text-align: center;
+vertical-align: middle;
+}
+.Password_Text{
+	width: 79%;
+	height: 100%;
+	float: left;
+	border-top-right-radius: 66px;
+	border-bottom-right-radius: 66px;
+	background: #939393;
+}
+.Password_Text input{
+	width: 100%;
+	height: 95%;
+	border: none;
+	background:#939393;
+	border-top-right-radius: 66px;
+	border-bottom-right-radius: 66px;
+	}
+	.perpson_logo img{
+		margin-top: 17%;
+	}
+	.Password_Logo img{
+		margin-top: 17%;
+	}
+.un{margin-top:13px;}
+.Account_number>div{margin-bottom:20px;}

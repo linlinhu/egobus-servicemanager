@@ -1,0 +1,33 @@
+.icon-edit{
+	background:url("../images/edit.png") no-repeat left center !important;
+}
+.icon-delete{
+	background:url("../images/delete.png") no-repeat left center !important;
+}
+.icon-add{
+	background:url("../../ext-3.0.3/images/add.gif") no-repeat left center !important;
+}
+.icon-search{
+	background:url("../../ext-3.0.3/images/search.gif") no-repeat left center !important;
+}
+.icon-remove{
+	background:url("../../ext-3.0.3/images/delete.gif") no-repeat left center !important;
+}
+.icon-affair{
+	background:url("../../ext-3.0.3/images/affair.gif") no-repeat left center !important;
+}
+.icon-save{
+    background:url("../../ext-3.0.3/images/save.gif") no-repeat left center !important;
+}
+.icon-refresh{
+	background:url("../images/refresh.gif") no-repeat left center !important;
+}
+.icon-reset{
+    background:url("../../ext-3.0.3/desktop/images/gears.gif") no-repeat left center !important;
+}
+.icon-download{
+	 background:url("../../ext-3.0.3/desktop/images/download.png") no-repeat left center !important;
+}
+.icon-qrcode{
+     background:url("../../ext-3.0.3/desktop/images/qrcode.ico") no-repeat left center !important;
+}

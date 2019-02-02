@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<link rel="shortcut icon" href="static/favicon.ico">
+<link type="text/css" charset="utf-8" href="ext-3.0.3/resources/css/ext-all.css" rel="stylesheet"/>
+<link type="text/css" charset="utf-8" href="ext-3.0.3/multiselect.css" rel="stylesheet"/>
+<link type="text/css" charset="utf-8" href="ext-3.0.3/ColumnHeaderGroup.css" rel="stylesheet"/>
+<link type="text/css" charset="utf-8" href="ext-3.0.3/desktop/css/desktop.css" rel="stylesheet"/>
+<link type="text/css" charset="utf-8" href="resource/css/icon.css" rel="stylesheet"/> 
+<link type="text/css" charset="utf-8" href="resource/css/phone.css" rel="stylesheet"/> 
+<link type="text/css" charset="utf-8" href="ext-3.0.3/ux/treegrid/treegrid.css" rel="stylesheet"/>
+<link type="text/css" charset="utf-8" href="js/uploadPanel/UploadPanel.css" rel="stylesheet"/>
+<script src="ext-3.0.3/adapter/ext/ext-base.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/adapter/ext/ext-basex.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/ext-all.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/ColumnHeaderGroup.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/ux/treegrid/TreeGrid.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/ux/treegrid/TreeGridColumnResizer.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/ux/treegrid/TreeGridColumns.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/ux/treegrid/TreeGridLoader.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/ux/treegrid/TreeGridNodeUI.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/ux/treegrid/TreeGridSorter.js" type="text/javascript" charset="utf-8"></script>
+<link type="text/css" href="ext-3.0.3/ux/treegrideditor/treegrideditor.css" rel="stylesheet" />
+<script type="text/javascript" src="ext-3.0.3/ux/treegrideditor/TreeGridEditor.js"></script>
+<script type="text/javascript" src="ext-3.0.3/ux/treegrideditor/TreeGridEditorEventModel.js"></script>
+<script type="text/javascript" src="ext-3.0.3/ux/treegrideditor/TreeGridEditorNode.js"></script>
+<script type="text/javascript" src="ext-3.0.3/ux/treegrideditor/TreeGridEditorNodeUI.js"></script>
+<script type="text/javascript" src="ext-3.0.3/ux/treegrideditor/TreeGridEditorNodeReader.js"></script>
+<script type="text/javascript" src="ext-3.0.3/ux/treegrideditor/TreeGridEditorNodeWriter.js"></script>
+<script type="text/javascript" src="ext-3.0.3/ux/treegrideditor/TreeGridEditorLoader.js"></script>
+<script type="text/javascript" src="ext-3.0.3/ux/treegrideditor/TreeGridEditorDragZone.js"></script>
+<script type="text/javascript" src="ext-3.0.3/ux/treegrideditor/TreeGridEditorSelectionModel.js"></script>
+<script type="text/javascript" src="ext-3.0.3/ux/treegrideditor/locale/tge-lang-zh_CN.js"></script>
+<script type="text/javascript" src="ext-3.0.3/ux/treegrideditor/plugins/TreeNodeChecked.js"></script>
+<script type="text/javascript" src="js/uploadPanel/uploadPanel.js"></script>
+<script type="text/javascript" src="js/uploadPanel/swfupload.js"></script>
+<script src="ext-3.0.3/PagingMemoryProxy.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/ItemSelector.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/ext-lang-zh_CN.js" type="text/javascript" charset="utf-8"></script>
+<script src="ext-3.0.3/uxvismode.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="echarts/echarts.js"></script>
+<script type="text/javascript" src="DatePicker/WdatePicker.js"></script>
+
+<script type="text/javascript" src="ext-3.0.3/desktop/js/StartMenu.js"></script>
+<script type="text/javascript" src="ext-3.0.3/desktop/js/TaskBar.js"></script>
+<script type="text/javascript" src="ext-3.0.3/desktop/js/Desktop.js"></script>
+<script type="text/javascript" src="ext-3.0.3/desktop/js/App.js"></script>
+<script type="text/javascript" src="ext-3.0.3/desktop/js/Module.js"></script>
+
+<script type="text/javascript" src="ext-3.0.3/desktop/js/messageWindow.js"></script>
+<script type="text/javascript" src="ext-3.0.3/desktop/sample.js"></script>
+<script type="text/javascript" src="js/basePath.js"></script>
+<script type="text/javascript" src="ext-3.0.3/utils.js"></script>
+<script type="text/javascript"  src="js/crypto-sha1.js" charset="utf-8"></script>
+<script type="text/javascript"  src="js/base64.js" charset="utf-8"></script>
+
+<!-- 模块js -->
+<script type="text/javascript" src="resource/modules/bus.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resource/modules/driver.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resource/modules/busType.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resource/modules/busService.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resource/modules/busRegister.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resource/modules/exceptionAlert.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resource/modules/systemConfig.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resource/modules/operationConfig.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resource/modules/level.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resource/modules/online.js" charset="UTF-8"></script>
+<script type="text/javascript" src="resource/modules/businessTrip.js" charset="UTF-8"></script>
+<style type="text/css">
+.rowdisable{
+background-color: red;
+color:#fff;
+}   
+.x-date-picker{
+   width:175px;
+}  
+.x-grid-empty{text-align:center;font-size:14px;color:#333;}
+.t-red{color:#d41111;}
+</style>
+<title>一起行管理平台</title>
+
+</head>
+<body >
+<div id="x-desktop">
+   <dl id="x-shortcuts" class="x-shortcuts">
+    <dt id="BUSTYPE-win-shortcut">
+       <a href="#" style='font-size: 12px;'> 
+       <img src="ext-3.0.3/desktop/images/48_48/BUSTYPE.png"/><br>
+                              车辆类型管理</a>
+    </dt>   
+  	<dt id="BUSSERVICE-win-shortcut">
+       <a href="#" style='font-size: 12px;'> 
+       <img src="ext-3.0.3/desktop/images/48_48/BUSSERVICE.png"/><br>
+             车辆服务管理</a>
+    </dt>
+     <dt id="BUS-win-shortcut">
+       <a href="#" style='font-size: 12px;'> 
+       <img src="ext-3.0.3/desktop/images/48_48/BUS.png"/><br>
+             车辆管理</a>
+    </dt>
+     <dt id="BUSREGISTER-win-shortcut">
+       <a href="#" style='font-size: 12px;'> 
+       <img src="ext-3.0.3/desktop/images/48_48/BUSREGISTER.png"/><br>
+                车辆服务绑定</a>
+     </dt>
+     <dt id="DRIVER-win-shortcut">
+       <a href="#" style='font-size: 12px;'> 
+       <img src="ext-3.0.3/desktop/images/48_48/DRIVER.png"/><br>
+                   司机管理</a>
+     </dt>
+     <dt id="EXCEPTIONALERT-win-shortcut">
+       <a href="#" style='font-size: 12px;'> 
+       <img src="ext-3.0.3/desktop/images/48_48/EXCEPTIONALERT.png"/><br>
+                异常管理</a>
+     </dt>
+    <dt id="SYSTEMCONFIGS-win-shortcut">
+       <a href="#" style='font-size: 12px;'> 
+       <img src="ext-3.0.3/desktop/images/48_48/SYSTEMCONFIG.png"/><br>
+                系统配置</a>
+     </dt>
+     <dt id="OPERATIONCONFIGS-win-shortcut">
+       <a href="#" style='font-size: 12px;'> 
+       <img src="ext-3.0.3/desktop/images/48_48/OPERATIONCONFIG.png"/><br>
+                运营配置</a>
+     </dt>
+     <dt id="LEVEL-win-shortcut">
+       <a href="#" style='font-size: 12px;'> 
+       <img src="ext-3.0.3/desktop/images/48_48/LEVEL.png"/><br>
+                订单标签</a>
+     </dt>
+     <dt id="ONLINE-win-shortcut">
+       <a href="#" style='font-size: 12px;'> 
+       <img src="ext-3.0.3/desktop/images/48_48/ONLINE.png"/><br>
+                上线状态视图</a>
+     </dt>
+     <dt id="BUSINESSTRIP-win-shortcut">
+       <a href="#" style='font-size: 12px;'> 
+       <img src="ext-3.0.3/desktop/images/48_48/BUSINESSTRIP.png"/><br>
+                业务行程查看</a>
+     </dt>
+   </dl>
+</div>
+<div id="ux-taskbar">
+	<div id="ux-taskbar-start"></div>
+	<div id="ux-taskbuttons-panel"></div>
+	<div class="x-clear"></div>
+</div>
+</body>
+<!-- <script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp"></script> -->
+</html>
